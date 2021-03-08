@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Escalanque</title>
 </head>
-<body class="container">
+<body class="container-fluid">
     <div class="row sticky-top" id="header">
         <div class="col-12">
             <div class="row justify-content-center">
@@ -21,15 +21,15 @@
         </div>
     </div>
     <div class="container-fluid" id="body">
-        <div class="row g-4" id="intro">
+        <div class="row m-4" id="intro">
             <div class="col-12">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien justo, dapibus non rhoncus in, tempor et nunc. Nullam congue, erat eu interdum mattis, lectus metus tristique velit, ultricies volutpat odio lectus quis ligula. Nam at felis turpis. Aenean imperdiet sem vitae ante euismod lacinia at eu orci. Nulla facilisi. Aenean nulla lacus, finibus sed neque et, ultricies commodo nisl</p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4" id="pics">
             <div class="col">
-                <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                <img src="./img/1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -37,8 +37,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                <img src="./img/2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a short card.</p>
@@ -46,8 +46,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                <img src="./img/3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -55,8 +55,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                <img src="./img/4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -64,19 +64,26 @@
                 </div>
             </div>
         </div>
-        <div class="row g-4" id="articles">
-            <div class="card" id="article-1">
-                <div class="card-body">
-                  <h5 class="card-title">Aller au rocher des goudes</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Retrouvez les voies ainsi que les accès au rocher des goudes</h6>
-                  <p class="card-text">Aenean at urna mollis, pharetra neque ut, tincidunt felis. Praesent mollis, orci quis ultricies vulputate, ligula massa vehicula leo, in molestie velit velit ut ex. Nunc at eros sed ligula pulvinar pretium.</p>
+        <div class="row row-cols-1 row-cols-sm-2 g-4 m-2" id="articles">
+            <div class="col">
+                <div class="card" id="article-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Aller au rocher des goudes</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Retrouvez les voies ainsi que les accès au rocher des goudes</h6>
+                        <p class="card-text">Aenean at urna mollis, pharetra neque ut, tincidunt felis. Praesent mollis, orci quis ultricies vulputate, ligula massa vehicula leo, in molestie velit velit ut ex. Nunc at eros sed ligula pulvinar pretium.</p>
+                        <p class="card-text">Morbi rutrum tristique dapibus. Nam consectetur feugiat nisl nec rutrum. Aliquam tristique neque quis efficitur elementum. Aliquam erat volutpat</p>
+                    </div>
                 </div>
             </div>
-            <div class="card" id="article-2">
-                <div class="card-body">
-                  <h5 class="card-title">Après l'effort le réconfort. </h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Ou manger, boire un verre les pieds dans l'eau.</h6>
-                  <p class="card-text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque facilisis pellentesque urna, nec scelerisque sem varius eu. In vel dui vel magna convallis mattis sed id turpis.</p>
+            <div class="col">
+                <div class="card" id="article-2">
+                    <div class="card-body">
+                      <h5 class="card-title">Après l'effort le réconfort. </h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Ou manger, boire un verre les pieds dans l'eau.</h6>
+                      <p class="card-text">Nunc vel diam id sem elementum pulvinar et a nunc. Fusce sodales, lacus ut gravida lobortis, justo lorem cursus enim, ac ornare justo metus a augue.</p>
+                      <p class="card-text">Donec ac posuere erat. Donec vel imperdiet lacus, ut elementum sapien. Suspendisse tristique ullamcorper sapien nec iaculis. Aliquam suscipit, ex id sodales tempus, mauris est ornare justo, sed malesuada ex ante et nulla. Aliquam scelerisque nec ante a auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent sed tempus libero. Nam vel iaculis risus, in mollis lectus. Nunc congue lacinia metus et laoreet.</p>
+                      <p class="card-text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque facilisis pellentesque urna, nec scelerisque sem varius eu. In vel dui vel magna convallis mattis sed id turpis.</p>
+                    </div>
                 </div>
             </div>
         </div>

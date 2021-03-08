@@ -1,3 +1,14 @@
+/*
+    colors:
+    draker 
+        191B2E
+        2D465F
+        5E939E
+        A4DBC9
+        F2EEE9
+    lighter
+*/
+
 html {
     width: 100vw;
     min-height: 100vh;
@@ -6,6 +17,7 @@ html {
     padding: 0;
 
     box-sizing: border-box;
+
     overflow-x: hidden;
 }
 
@@ -28,9 +40,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    border-bottom: rgb(185, 185, 185) solid 2px;
+    border-bottom: #5E939E solid 2px;
 
-    color: honeydew;
+    color: #F2EEE9;
+}
+
+#menu {
+    border-bottom: #5E939E solid 2px;
+}
+
+.nav > a {
+    color: #5E939E;
+    font-weight: bold;
+}
+
+.nav > a:hover {
+    color: #191B2E;
 }
 
 #body {
@@ -38,8 +63,22 @@ body {
 }
 
 #footer {
-    height: 5vh;
-    border-top: rgb(185, 185, 185) solid 2px;
+    height: auto;
+    min-height: 5vh;
+    border-top: #5E939E  solid 2px;
+    padding: 1rem;
+}
+
+#logo {
+    min-width: 40px;
+    min-height: 40px;
+
+    background-image: url("./img/logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin: 1rem;
 }
 
 div[class*="col-"] {
@@ -52,8 +91,40 @@ div[class*="col-"] {
     align-items: center;
     justify-content: center;
 }
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
 
 .shadow {
     font-weight: bold;
-    text-shadow: 2px 2px 8px black;
+    text-shadow: 2px 2px 8px #191B2E;
+}
+
+.empty {
+    content: ' ';
+    height: 1rem;
+    width: 1rem;
+}
+
+a{
+    text-decoration: none;
 }

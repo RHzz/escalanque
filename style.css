@@ -1,0 +1,59 @@
+html {
+    width: 100vw;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+}
+
+#header {
+    height: 25%;
+    background-image: url("./img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-bottom: rgb(185, 185, 185) solid 2px;
+
+    color: honeydew;
+}
+
+#body {
+    min-height: 65%;
+}
+
+#footer {
+    height: 5vh;
+    border-top: rgb(185, 185, 185) solid 2px;
+}
+
+div[class*="col-"] {
+    text-align: center;
+}
+
+.align-items-center {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow {
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}

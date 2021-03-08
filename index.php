@@ -8,16 +8,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-png" href="./img/logo.png" />
-    <title>Escalanque</title>
+    <title>Escalanque - Escalade au coeur des calanques de Marseille</title>
+    <meta name="description" content="Association d'escalade dans les calanques de marseille. Cours, sorties, randonnées, liste des voies...">
 </head>
 <body class="container-fluid">
     <div class="row" id="header">
         <div class="col-12 align-middle" style="height: 100%;">
             <div class="row justify-content-center" style="height: 50%;">
-                <div class="col-10 display-1 title align-items-center"><span class="shadow">ESCALANQUE</span></div>
+                <h1 class="col-10 display-1 title align-items-center"><span class="shadow">ESCALANQUE</span></h1>
             </div>
             <div class="row justify-content-center" style="height: 50%;">
-                <div class="col-12 display-6 subtitle align-items-center"><span class="shadow">Association d'escalade dans les calanques de Marseille</span></div>
+                <h2 class="col-12 display-6 subtitle align-items-center"><span class="shadow">Association d'escalade dans les calanques de Marseille</span></h2>
             </div>
         </div>
     </div>

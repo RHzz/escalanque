@@ -67,6 +67,7 @@ body {
     min-height: 5vh;
     border-top: #5E939E  solid 2px;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 #logo {
@@ -127,4 +128,24 @@ div[class*="col-"] {
 
 a{
     text-decoration: none;
+}
+
+.btn-outline-perso {
+    color: #191B2E;
+    border-color: #191B2E;
+}
+
+.btn-outline-perso:hover {
+    color: #fff;
+    background-color: #191B2E;
+}
+
+.btn-outline-perso:active {
+    color: #fff;
+    background-color: #191B2E;
+    border-color: #191B2E;
+}
+
+p {
+    text-align: justify;
 }
